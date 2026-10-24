@@ -1,0 +1,72 @@
+# Environment and Credentials (CRITICAL - DO NOT COMMIT)
+.env
+*.env
+.env.*
+!.env.example
+
+# Documentation (uncommitted for initial repo push)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Model Checkpoints & Large Artifacts
+checkpoints/
+models_cache/
+weights/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+
+# Data Caches & Staging (Keep READMEs)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+data/cache/
+*.parquet
+*.arrow
+
+# Logs & Audit Dumps
+logs/
+*.log
+audit_wal/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
